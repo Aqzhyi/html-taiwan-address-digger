@@ -1,0 +1,25 @@
+{
+  "name": "html-taiwan-address-digger",
+  "version": "0.1.0",
+  "description": "從 HTML 中，挖出可能是地址的地串",
+  "main": "dist/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "chai": "^3.0.0",
+    "del": "^1.2.0",
+    "eslint": "^0.24.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-plumber-notifier": "^0.0.2",
+    "gulp": "^3.9.0",
+    "mocha": "^2.2.5",
+    "run-sequence": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "gulp build && gulp watch",
+    "test": "mocha --check-leaks --compilers js:babel/register"
+  },
+  "author": "Pleasurazy <pleasurazy@gmail.com>",
+  "license": "MIT"
+}
