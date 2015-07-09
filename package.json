@@ -1,6 +1,6 @@
 {
   "name": "html-taiwan-address-digger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "從 HTML 中，挖出可能是地址的地串",
   "main": "dist/index.js",
   "dependencies": {},
